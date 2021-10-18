@@ -1,3 +1,13 @@
+/**
+ * Project OOP3200-F2021-ICE5
+ * @author Katherine Bellman
+ * @Student number: 100325825
+ * @Course: OOP 3200
+ *
+ * @Date: Octorber 17th 2021
+ * @version 1.0
+ */
+
 #pragma once
 #ifndef __VECTOR2D__
 #define __VECTOR2D__
