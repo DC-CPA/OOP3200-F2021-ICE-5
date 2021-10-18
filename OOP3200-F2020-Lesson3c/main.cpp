@@ -14,6 +14,7 @@
 #include <vector>
 
 #include "GameObject.h"
+#include "Vector3D.h"
 
 
 static void BuildGameObjects(std::vector<GameObject*>& game_objects, const int num = 2)
@@ -60,7 +61,14 @@ static void CompareGameObjects(GameObject* object1, GameObject* object2)
 
 int main()
 {
-	std::vector<GameObject*> gameObjects;
+	const Vector3D point1(5.0f, 20.0f);
+	const Vector3D point2(10.0f,100.0f);
+
+	std::cout << point1.ToString() << std::endl;
+	std::cout << point2.ToString() << std::endl;
+
+
+	/*std::vector<GameObject*> gameObjects;
 
 	int num_of_GO;
 	std::cout << "How Many Game Objects do you need?: ";
@@ -80,6 +88,6 @@ int main()
 	std::cout << "\n--------------------------------------------------------------" << std::endl;
 	
 	CompareGameObjects(gameObjects[index1], gameObjects[index2]);
-	CompareGameObjects(gameObjects[index1], gameObjects[index2]);
+	CompareGameObjects(gameObjects[index1], gameObjects[index2]);*/
 }
 
